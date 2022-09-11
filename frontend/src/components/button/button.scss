@@ -1,0 +1,22 @@
+@use '../../colors.scss' as colors;
+
+button {
+    border: none;
+    border-radius: 10px;
+
+    background-color: colors.$light-pastel-blue;
+    width: 150px;
+    height: 50px;
+
+    color: white;
+    font-weight: 700;
+
+    transition: 0.25s;
+
+    &:hover {
+        background-color: colors.$medium-pastel-blue;
+    }
+    &:active {
+        background-color: colors.$dark-pastel-blue;
+    }
+}
