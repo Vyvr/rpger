@@ -1,0 +1,20 @@
+@use "../../colors" as colors;
+
+input {
+    box-sizing: border-box;
+    font-family: inherit;
+    width: 250px;
+    
+    border: solid 2px colors.$light-pastel-blue;
+    border-color: colors.$light-pastel-blue;
+    outline: 0;
+    font-size: 1.3rem;
+    padding: 7px 15px;
+
+    border-radius: 10px;
+
+    &:focus {
+        box-shadow: 0px 0px 1px 1px colors.$light-pastel-blue;
+        transition: 0.25s;
+    }
+}
